@@ -1,0 +1,58 @@
+base sur lequel travailler
+
+x% grid rempli
+PARMIS a entité : max b type de tile différentes : avec c.random% de chance par tile (pour arriver à 100% des tiles actives)
+
+
+
+GenerateGrid () {
+width
+height
+numberOfEntityToDrawFrom =
+numberOfTileToGenerate =
+
+
+//Anti-bad luck for entity draw
+foreach 
+
+}
+
+list 
+
+i = 
+
+
+
+
+	
+
+bdd : toutes les tiles :
+	- grouper par entité
+
+au moins x% de tiles vides
+
+
+	*cas*
+grid 6 x 6
+30% vides (inactive)
+PARMIS les 70% actives:
+	- PARMIS 2 entité choisi:
+		- max 6 types de tiles différentes
+			- 3 tile type 1
+			- 2 tiles types 2
+			- etc...
+
+	*contrôle*
++ fonctions mapper actuel :
+	- changer tile
+
+	*interface* :
+tile affiche son nom 
+ex : cactus
+
+cliquer sur tile : affiche les détails
+ex : cactus : prend 1 de dégat quand on rentre dedans
+
+
+	*procéduralisation*
+si tile x pop, 78% de chaque qu'il y ait la même a côté

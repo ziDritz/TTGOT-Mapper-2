@@ -1,0 +1,33 @@
+Name of the tile;Effect (ENG);Destroyable ?;Recoverable ?;Where ?;Code
+Destructible wall;No element can be on this tile. Protects elements behind. Solid: this tile can't be recovered.;Destructible;Not-recoverable;W - Everywhere;P_T_02a
+Indestructible wall;A wall that can't be destroyed. No element can be on this tile. Protects elements behind. Solid: this tile can't be recovered.;Not-destructible;Not-recoverable;W - Everywhere;P_T_03a
+Improvised shelter;Looks like a hidden shelter…;Destructible;Recoverable;W - Everywhere;P_T_04a
+Blue gas;At the beginning of the round, any element on this tile or adjacent loose 1 AP.;Not-destructible;Recoverable;W - Everywhere;P_T_05a
+Red gas;At the beginning of the round, any element on this tile or adjacent take 1 dmg.;Not-destructible;Recoverable;W - Everywhere;P_T_06a
+Green gas;At the beginning of the round, any Seeker on this tile or adjacent must refresh its Working Memory.;Not-destructible;Recoverable;W - Everywhere;P_T_07a
+Hidden oasis;At the beginning of the ROUND, any element on this tile gain 1 additional AP.;Destructible;Recoverable;A (AP - The Manager);A_T_01d
+Mirage;Any element on this tile looses 1 AP at the begininng of their turn. ;Not-destructible;Recoverable;A (AP - The Manager);A_T_02b
+Dune;Moving on this tile with the movement action requires 1 additional AP. ;Destructible;Recoverable;A (AP - The Manager);A_T_03b
+Moving sands;Moving from this tile with the movement action requires 1 additional AP. Elements adjacent to this tile are attracted at the end of the enemy phase (starting north). ;Not-destructible;Not-recoverable;A (AP - The Manager);A_T_04a
+;;;;A (AP - The Manager);A_T_05a
+Fulfilling oasis;This tile starts with 2 tokens. At the beginning of the ROUND, any element on this tile can use 1 to gain 2 AP. If there's no tokens on this tile, destroy. ;Destructible;Recoverable;A (AP - The Manager);A_T_06a
+Slick sands;Moving from this tile with the movement action requires 1  additional AP.;Destructible;Recoverable;A (AP - The Manager);A_T_07a
+Ruins;Moving on AND from this tile with the movement action requires 1 AP additional.;Not-destructible;Not-recoverable;A (AP - The Manager);A_T_08a
+;;;;A (AP - The Manager);A_T_09a
+Solid terrain;Moving on this tile grants you 1 AP. (In a ROUND, once per Seeker);Not-destructible;Recoverable;A (AP - The Manager);A_T_10a
+Cactus;All adjacent cactus are considered as one tile. When moving from this tile, take X damage, depending on the number of adjacent cactus.;Destructible;Not-recoverable;A (AP - The Manager);A_T_11a
+Archaeology site;Any Seeker on this tile can investigate for 3 AP.;Not-destructible;Recoverable;A (AP - The Manager);A_T_12a
+Dust;This tile recovers any tile below. Elements on this tile cannot spend AP (free actions possible). Traverse: if Dust can't recover a tile, it is instead placed to an adjacent tile.;Not-destructible;Not-recoverable;A (AP - The Manager);A_T_13a
+Destroyed;No element can be on this tile;;;B (Tiles & stun - The Structuror);F_T_01
+Burned;Any element on this tile at the end of the ROUND loses 2 health/Confidence. Counters frozen. ;;;F (Alt tiles - Duality);F_T_02
+Frozen ;Any element on this tile at the beginning of the ROUND only regains 1 AP. Counters burned.;;;F (Alt tiles - Duality);F_T_03
+Immune;This tile cannot be altered.;;;F (Alt tiles - Duality);F_T_04
+Portals;A linked tile. Any element moving on a tile gets out from the other one.;;;G (Mvt - The Doubtor);G_T_01
+Water current;At the end of the ROUND, any element on this tile is pushed onto the adjacent tile in the direction of the arrow.;;;G (Mvt - The Doubtor);G_T_02
+Baril of lucidity;Has 3 Health. Each time it moves, put a token on this tile for each tiles moved. When destroyed, this tile explodes and deals X dmg to surrounding tiles depending on tokens.;;;G (Mvt - The Doubtor);G_T_03
+Crisis;This tile faces a direction and can't be recovered. If in its direction is another same tile, all elements in between take 10 damage at the beginning of the round. ;;;G (Mvt - The Doubtor);G_T_04
+Triggered Doubt;This is an enemy. Tokens represents its health. Starts with 1. (passive): at the beginning of the ROUND, gain 1 token for all enemies adjacent to it.;;;G (Mvt - The Doubtor);G_T_05
+Source of Certainty;If this tile is not covered, generate 1 Certainty on it with a value of 1 at the beginning of the round. ;;;G (Mvt - The Doubtor);G_T_06
+Indestructible rock;Can't be destroyed. No element on this tile. Elements take an additional collision damage from this tile. Protects elements behind. Solid: this tile can't be recovered.;Not-destructible;Non-recoverable;G (Mvt - The Doubtor);G_T_07
+Destructible rock;No element on this tile until destroyed. Elements take an additional collision damage from this tile. Protects elements behind. Solid: this tile can't be recovered.;Destructible;Non-recoverable;G (Mvt - The Doubtor);G_T_08
+Small rock;No element can be on this tile until destroyed. Elements cannot take collision damage from this tile. Solid: this tile can't be recovered.;Not-destructible;Non-recoverable;G (Mvt - The Doubtor);G_T_09
